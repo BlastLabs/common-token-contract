@@ -8,7 +8,7 @@ This is an open source contract to make your non-fungible token (NFT) interopera
 When a new NFT is created, it's unclear what the exact property rights are in it.  Who owns the token?  What do they own - does it include copyright?  What about future sales?  If two parties have a disagreement they want to take off chain, how do they resolve it?
 
 **What the Common Token Contract (CTC) Covers**  
-- CTC Version 0.1 includes the following:
+CTC Version 0.1 includes the following:
 - An Agreement
 - Authentication Details
 - Purchase and Sale Terms
