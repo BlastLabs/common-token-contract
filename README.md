@@ -20,5 +20,5 @@ When a new NFT is created, it's unclear what the exact property rights are in it
 - Creator Representations
 - JSON 
 
-**License**
+**License**  
 MIT License - Basically, you can edit this contract freely and build anything you want on top of it - it will be fully open, forever.
