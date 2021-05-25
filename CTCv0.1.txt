@@ -1,0 +1,105 @@
+Common Token Contract, v 0.1
+Available here:  https://github.com/anthraxblast/common-token-contract 
+
+//Agreement
+This agreement is made on: 
+DATE
+CHAIN
+CHAIN_TIMESTAMP
+CONTRACT 
+VERSION
+
+by and between 
+SELLER_CHAIN_ADDRESS
+ (the “Token Seller”/”Seller”),
+
+and 
+BUYER_CHAIN_ADDRESS
+ (the “Token Buyer”/”Buyer”),
+
+//Authentication
+The CREATOR has created certain token (“Token” or “Work”) which can be authenticated by:
+
+CREATOR_CHAIN_ADDRESS
+TITLE
+UID
+CREATION_DATE
+IPFS_LOCATION
+DESCRIPTION
+
+The Work is the on-chain token and any associated image, pictorial/graphic/sculptural work, audio file, sound recording, video file, motion picture, electronic data structure, game, literary works, musical work, dramatic work, pantomime, choreographic work, compilation, digital property, or physical property specified in the description.
+
+The Work is being sold to Buyer and Buyer is willing to purchase the Work, subject to the mutual obligations, covenants, and conditions below; and
+
+As Buyer and Seller recognize that the value of the Work, unlike that of any ordinary physical or digital property, is and will be affected by each and every other token the Seller has created and will hereafter create; and
+
+As the parties expect the value of the Work to increase; and
+
+As Buyer and Seller recognize that it is fitting and proper that Seller participate in any appreciated value which may thus be created in the Work; and
+
+So, in consideration of the foregoing premises and the mutual covenants set forth and other valuable considerations the parties agree as follows:
+
+//Purchase and Sale
+The Buyer is purchasing the Work subject to all the covenants set forth for:
+PRICE
+CRYPTOCURRENCY_UNIT
+
+//Future Transfers
+Buyer promises that in the event Buyer shall sell, give, grant, barter, exchange, assign, transfer, convey or alienate the Work in any manner whatsoever or if the Work shall pass by inheritance or bequest or by operation of law, or if the Work shall be destroyed and insurance proceeds paid therefor, Buyer or Buyer’s personal representative shall:
+
+pay a sum equal of 
+CREATOR_CUT_PERCENT to
+CREATOR
+
+//Transferees to Ratify Agreement and are Bound
+Buyer promises not to sell, give, grant, barter, exchange, assign, transfer, convey or alienate the Work in any manner whatsoever or permit the Work to pass by inheritance or bequest or by operation of law to any person without procuring such transferee’s ratification and affirmation of all the terms of this Agreement and transferee’s agreement to be bound and to perform and fulfill all the Buyer’s covenants set forth in this contract, as recorded on chain.
+
+In the event the Work shall hereafter be transferred or otherwise alienated from Buyer or Buyer’s estate in any manner whatsoever, any transferee taking the Work with notice of this Agreement shall in every respect be bound and liable to perform and fulfill each and every covenant herein as if such transferee had duly made and subscribed to this common token contract at the time the Work was transferred to him or her.
+
+Any waiver by either party of any provision of this Agreement, or of any right hereunder, shall not be deemed a continuing waiver and shall not prevent or estop such party from thereafter enforcing such provision or right, and the failure of either party to insist in any one or more instances upon the strict performance of any of the terms or provisions of this Agreement by the other party shall not be construed as a waiver or relinquishment for the future of any such terms or provisions, but the same shall continue in full force and effect.
+
+//Expiration
+This agreement and the covenants shall be binding upon the parties, their heirs, legatees, executors, administrators, assigns, transferees and all other successors in interest and the Buyer’s covenants do attach and run with the Work and shall be binding to and until 
+80 years after the deaths of Seller.
+
+//No Amendments Unless in Writing and On Chain
+This Agreement shall not be subject to amendment, modification, or termination.
+
+//Title
+Title to the Artwork will transfer from Artist to Purchaser upon full payment of the purchase price.
+
+//Copyright and Reproduction
+The Buyer owns all reproduction and derivative rights, including the right to claim statutory copyright in the Work in any jurisdiction. The Work may not be photographed, sketched, painted, performed, or reproduced in any manner whatsoever without the express written consent of the Buyer.
+
+//Bill of Sale and Representation
+The executed version of this agreement acts as a Bill of Sale evidencing the transfer of title of the token from Creator to Buyer upon full payment of the Purchase Price.
+
+//Creator Representations
+Creator represents to Buyer that (i) the Work is an authentic Work created by the Creator and (ii) Creator has the legal authority to convey good title in the Work to Buyer.
+
+//General
+This Agreement represents the entire understanding between the Buyer, on the one hand, and the Creator on the other hand, with respect to the sale of the Work. This agreement shall be governed by and construed in accordance with the terms of the chain, and is interoperable with the laws of Wyoming, Ireland, or Singapore. Venue of any action shall be solely in these three jurisdictions. This Agreement may not be assigned by any of the parties.
+
+//Example of Metadata for Each Event on the Chain for this Token
+
+{ 
+DATE : UTC timestamp,
+CHAIN : String,
+CHAIN_TIMESTAMP : UTC timestamp,
+CONTRACT : String,
+VERSION : Float,
+SELLER_CHAIN_ADDRESS : String,
+BUYER_CHAIN_ADDRESS  : String,
+CREATOR  : String,
+CREATOR_CHAIN_ADDRESS  : String,
+TITLE : String,
+UID :  String,
+CREATION_DATE : UTC timestamp
+IPFS_LOCATION  : String,
+DESCRIPTION  : String,
+PRICE : Float,
+CRYPTOCURRENCY_UNIT  : String,
+CREATOR_CUT_PERCENT : Float,
+CREATOR  : String,
+}
+
